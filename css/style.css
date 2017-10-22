@@ -84,7 +84,7 @@ font-family: 'Viga', sans-serif;
 	
 }
 .sp-layer{
-	color:#fff;
+    color:#fff;
 	font-size:28px;
 	/* font-family: 'Viga', sans-serif; */
 }
@@ -619,7 +619,7 @@ header.page-header .main-menu{
     padding: 20px 0;
     /* margin-top: 33px; */
     display: inline-block;
-    background: #f66b27;
+    background: #fff;
     border: 1px dashed #fff;
 }
 .main-menu .navbar-nav li{
@@ -628,7 +628,7 @@ header.page-header .main-menu{
 .main-menu .navbar-nav li a{
     font-size: 13px;
     font-weight: 700;
-    color: #fff;
+    color: black;
     padding-top: 6px;
     padding-bottom: 0;
     -webkit-transition: all .3s;
@@ -652,10 +652,10 @@ header.page-header .main-menu{
 
  
 .main-menu.minified{
-	background-color: #f66b27;
+	
 	padding: 0;
 	position: fixed;
-	/* border: none; */
+	border: none; 
 }
 .minified .navbar-brand{
 	display:none;
@@ -1963,7 +1963,7 @@ footer ul li a i{
  
   .main-menu.minified {
     background-color: #28292e;
-    padding: 20px 0 0;
+    
     position: fixed;
   }
 
@@ -1973,10 +1973,7 @@ footer ul li a i{
   }
 
   .navbar-brand {
-    float: none;
-    font-size: 18px;
-    line-height: 20px;
-    padding: 15px;
+    display: none
   }
 
   .navbar-collapse {
@@ -2167,4 +2164,28 @@ footer ul li a i{
   }
 
 }
+.navbar, .navbar-inverse {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    min-height: 80px;
+}
 
+.nav li {
+    display: inline;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 1.7em;
+    font-weight: 300;
+    padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    background-color: #444444;
+    transition: 0.7s all linear;
+    height: 100%;
+}
