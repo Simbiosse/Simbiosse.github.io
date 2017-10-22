@@ -2189,3 +2189,11 @@ footer ul li a i{
     transition: 0.7s all linear;
     height: 100%;
 }
+
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
