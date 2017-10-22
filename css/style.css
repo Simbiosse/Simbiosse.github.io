@@ -2194,6 +2194,6 @@ footer ul li a i{
 .navbar {
     position: relative;
     min-height: 50px;
-    margin-bottom: 0;
+    margin-bottom: 1px;
     border: 1px solid transparent;
 }
